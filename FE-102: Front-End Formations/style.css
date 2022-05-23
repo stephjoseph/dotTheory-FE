@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+body {
+  background-color: white;
+  color: black;
+  font-family: Inter, sans-serif;
+}
+
+nav {
+  width: 100%;
+  background: black;
+}
+
+.navbar {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 96px;
+  background: black;
+}
+
+.navlinks {
+  display: flex;
+  gap: 2rem;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+.navlinks a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 120px;
+  margin-bottom: 120px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  width: 60%;
+}
+
+.header p {
+  width: 45%;
+  font-weight: 300;
+}
+
+.header .heading {
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: left;
+  align-items: start;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.heading span {
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.featured-article {
+  display: flex;
+  font-family: Inter, sans-serif;
+  width: 70%;
+  gap: 40px;
+  margin-bottom: 120px;
+}
+
+.description {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.description h2 {
+  font-size: 1.75rem;
+}
+
+.description p {
+  font-size: 1rem;
+}
+
+.description a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 28px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description a:hover {
+  background: black;
+  border: none;
+  color: white;
+}
+
+.description .author {
+  font-size: 14px;
+
+  color: black;
+  opacity: 0.8;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  gap: 30px;
+}
+
+footer {
+  width: full;
+  background: black;
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer-nav {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.address .country {
+  font-weight: bold;
+}
+
+.address .street-address {
+  font-size: 14px;
+  line-height: 1.125rem;
+  color: rgba(255, 255, 255, 0.75);
+}
