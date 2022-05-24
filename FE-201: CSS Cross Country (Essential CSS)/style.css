@@ -68,18 +68,83 @@ nav {
   text-align: left;
   align-items: start;
   gap: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .heading span {
   font-weight: bold;
 }
 
+.header .header-images {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.header-images .right-images {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  justify-content: center;
   margin-bottom: 120px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.home-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  margin-bottom: 120px;
+}
+
+.home-section1 h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  width: 50%;
+}
+
+.feature1-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 24px;
+}
+
+.feature .feature-number {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.feature .feature-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.feature .feature-container {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.feature .feature-desc {
+  margin-bottom: 24px;
 }
 
 .featured-article {
